@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПРО Тебя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">ПРО Тебя</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#process">Как проходит работа</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Помогаю найти себя: психология и профориентация</h1>
+                <p class="hero-text">Консультации психолога, игры для самопознания и профориентация для подростков и
+                    взрослых.</p>
+                <a href="#contact" class="btn">Записаться на консультацию</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/psychologist.jpg" alt="Психолог Анна Петрова">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Психолог Анна Петрова">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">Обо мне</h2>
+                <p class="about-text">Меня зовут Елена Гаврикова, я практикующий психолог и профориентолог с 10-летним
+                    опытом работы.</p>
+                <p class="about-text">Закончила Московский государственный психолого-педагогический университет по
+                    специальности "Психология личности". Прошла дополнительное обучение по профориентации и карьерному
+                    консультированию.</p>
+                <p class="about-text">В своей работе я сочетаю методы когнитивно-поведенческой терапии, арт-терапии и
+                    современные методики профориентации. Верю, что каждый человек может найти свой уникальный путь к
+                    счастью и самореализации.</p>
+                <p class="about-text">Моя цель — создать безопасное пространство, где вы сможете лучше понять себя, свои
+                    желания и возможности.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3 class="service-title">Консультация психолога</h3>
+                    <p>Индивидуальные сессии для работы с тревожностью, самооценкой, поиском себя. Помогаю разобраться в
+                        своих чувствах, мыслях и найти внутренние ресурсы для изменений.</p>
+                    <p><strong>Формат:</strong> онлайн/офлайн, 60 минут</p>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎲</div>
+                    <h3 class="service-title">Игры для раскрытия себя</h3>
+                    <p>Групповые или индивидуальные игровые сессии для самопознания (метафорические карты,
+                        психологические игры). Помогают лучше понять свои желания, страхи, сильные стороны в лёгкой,
+                        непринуждённой форме.</p>
+                    <p><strong>Формат:</strong> офлайн, 90 минут</p>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Узнать подробнее</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3 class="service-title">Профориентация</h3>
+                    <p>Тестирование + консультация по выбору профессии (для подростков и взрослых). Использую
+                        диагностику интересов, способностей, анализ рынка труда. Помогаю найти направление, которое
+                        будет приносить и доход, и удовольствие.</p>
+                    <p><strong>Формат:</strong> онлайн/офлайн, 2 встречи по 60 минут</p>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title">Как проходит работа</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Запись</h3>
+                    <p>Оставляете заявку через форму на сайте или по телефону. Я свяжусь с вами для уточнения деталей.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Оплата</h3>
+                    <p>После подтверждения записи вы получаете реквизиты для оплаты. Сессия подтверждается после оплаты.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Встреча</h3>
+                    <p>В назначенное время мы встречаемся онлайн или офлайн. Для онлайн-консультаций используется Zoom.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Результат</h3>
+                    <p>После сессии вы получаете обратную связь и рекомендации. При необходимости назначаем следующую
+                        встречу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Анна помогла мне разобраться в себе и понять, почему я так долго не
+                        могла найти работу, которая бы меня удовлетворяла. После профориентации я нашла смелость сменить
+                        сферу деятельности и теперь чувствую себя на своём месте."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/client1.jpg" alt="Мария">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Мария, 28 лет</div>
+                            <div class="author-position">Маркетолог</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Игровые сессии с Анной открыли для меня новые грани моего характера. Я
+                        смогла принять некоторые свои особенности и научилась использовать их как преимущества. Очень
+                        тёплая и поддерживающая атмосфера!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/client2.jpg" alt="Елена">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Елена, 35 лет</div>
+                            <div class="author-position">Предприниматель</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Сын-подросток совсем не знал, куда поступать после школы. После
+                        профориентации у него появилась ясность и мотивация готовиться к экзаменам. Анна нашла подход
+                        даже к такому закрытому подростку, как мой сын."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/client3.jpg" alt="Дмитрий">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Дмитрий, 42 года</div>
+                            <div class="author-position">Отец 16-летнего подростка</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Записаться на консультацию</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3 class="form-title">Форма записи</h3>
+                    <form id="consultation-form" action="send-to-telegram.php" method="POST">
+                        <!-- Скрытое поле для защиты от спама -->
+                        <input type="hidden" name="lastname" style="display:none;">
+
+                        <div class="form-group">
+                            <label for="name">Ваше имя*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон*</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Услуга*</label>
+                            <select id="service" name="service" required>
+                                <option value="">Выберите услугу</option>
+                                <option value="Консультация психолога">Консультация психолога</option>
+                                <option value="Игры для раскрытия себя">Игры для раскрытия себя</option>
+                                <option value="Профориентация">Профориентация</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Ваш вопрос или предпочтительное время</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить заявку</button>
+                        <p style="margin-top: 15px; font-size: 14px;">Ваши данные конфиденциальны и не будут переданы
+                            третьим лицам.</p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3 class="form-title">Контакты</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <div>Телефон</div>
+                            <div><strong>+7 (999) 999-99-99</strong></div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <div>Email</div>
+                            <div><strong>lenkam80@mail.ru</strong></div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🏢</div>
+                        <div>
+                            <div>Адрес</div>
+                            <div><strong>г. Сургут, ул. Психологическая, 15</strong></div>
+                            <div><small>(офлайн-приём по предварительной записи)</small></div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📱</a>
+                        <a href="#" class="social-link">💬</a>
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🔗</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <div class="footer-logo">Елена Гаврикова</div>
+                    <p>Психолог, профориентолог. Помогаю найти себя и своё призвание.</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Консультации психолога</a></li>
+                        <li><a href="#">Игры для самопознания</a></li>
+                        <li><a href="#">Профориентация</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+71234567890">+7 (999) 999-99-99</a></li>
+                        <li><a href="mailto:anna@psychologist.ru">lenkam80@mail.ru</a></li>
+                        <li>Сургут, ул. Психологическая, 15</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Соцсети</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Telegram</a></li>
+                        <li><a href="#">WhatsApp</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">ВКонтакте</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 ПРО Тебя. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
